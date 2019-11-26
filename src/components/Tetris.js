@@ -13,7 +13,7 @@ const Tetris = () => {
                 <Display text="Rows" />
                 <Display text="Levels" />
            </div>
-           <Start/>
+           <StartButton/>
         </aside>
     </div>
    )
