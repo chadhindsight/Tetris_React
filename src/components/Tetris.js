@@ -16,7 +16,7 @@ const Tetris = () => {
            <StartButton/>
         </aside>
     </div>
-   )
+   );
 };
 
 export default Tetris;
