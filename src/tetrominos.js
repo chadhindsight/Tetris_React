@@ -19,7 +19,7 @@ export const TETROMINOS = {
 };
 
 export const randomTetromino = () => {
-    // String reference
+    // String reference goes here
     const tetrominos = 'IJLOSTZ',
     const randTetromino =
         tetrominos[Math.floor(Math.random() * tetrominos.length)];
