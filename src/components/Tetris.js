@@ -1,10 +1,9 @@
 import React from 'react';
 import { createStage  } from '../gameHelpers';
-// Components
 import Stage from './Stage';
 import Display from './Display';
 import StartButton from './StartButton';
-
+// Tetris Component
 const Tetris = () => {
    return ( <div>
         <Stage stage={createStage()}/>
